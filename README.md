@@ -1,13 +1,9 @@
 ![a52banner](https://i.imgur.com/Xp3zFk2.png)
 # A52-Hidden-Mods
 
-# ⚠️ - No support given anymore. I bought a S22 Ultra and i will no longer be able to update this module. If you want to keep this project alive you can fork it and add your own updates, fixes etc.
+Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ) and Sloobot [Github](https://github.com/Sloobot) for porting to the A52. This is a continuation on Sloobot's work.
 
-Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ). This version is modified by me to work on the A52.
-
-If you're looking for the A52s version change the branch to a52s or click here https://github.com/Sloobot/A52-Hidden-Mods/tree/a52s
-
-#### For more mods on CSC-Level also get: [A72-CSC-Mods](https://github.com/UltraHQ/A72-CSC-Mods)
+#### NOTE: currently only the A52 5G is supported. I plan to support the A52 4G and A52s at some point.
 
 ### Installation:
 1. Download the module from the releases
@@ -53,7 +49,7 @@ If you're looking for the A52s version change the branch to a52s or click here h
 - Setting to limit battery charge to 85%
 - Smart Widgets
 - Samsung Smart Suggestions (Smart Calendar, Smart Widgets Auto Rotation, ..)
-
+- Added QHD / 1440p dynamic resolution scaling alongside existing FHD and HD fallbacks
 
 #### Added Camera Features:
 - Extended pro (video) mode features: Histogram, Focus peaking, Zoom, Reset button, Expanded shutter speed
