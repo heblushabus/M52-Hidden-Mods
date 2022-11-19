@@ -3,7 +3,7 @@
 
 Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ) and Sloobot [Github](https://github.com/Sloobot) for porting to the A52. This is a continuation on Sloobot's work.
 
-#### ⚠️ NOTE: currently only the A52 5G is supported. I plan to support the A52 4G and A52s at some point.
+Please note there are seperate modules for both the A52 5G and A52 4G. Make sure you use the correct one in the releases.
 
 ### Installation:
 1. Download the module from the releases
