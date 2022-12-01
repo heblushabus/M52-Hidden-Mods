@@ -111,6 +111,7 @@
 
     <!-- Support picture format -->
     <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="true"/> 
+    <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true"/>
 
     <!-- Shutter LP features -->
     <local name="SUPPORT_TAP_AND_HOLD_CAMERA_BUTTON" value="true" />
