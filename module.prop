@@ -1,7 +1,7 @@
 id=a525gmods
 name=A52 5G Hidden Mods
-version=v2.5.3
-versionCode=41
+version=v2.5.4
+versionCode=42
 author=daft plonker, Sloobot & UltraHQ
 description=This module adds many Camera and OS mods. See the GitHub Page for a full list of additions
 updateJson=https://raw.githubusercontent.com/daft-plonker/A52-Hidden-Mods/main/update.json
