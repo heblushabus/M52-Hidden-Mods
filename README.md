@@ -49,7 +49,7 @@ Please note there are seperate modules for both the A52 5G and A52 4G. Make sure
 - Setting to limit battery charge to 85%
 - Smart Widgets
 - Samsung Smart Suggestions (Smart Calendar, Smart Widgets Auto Rotation, ..)
-- Added QHD / 1440p dynamic resolution scaling alongside existing FHD and HD fallbacks
+- Added QHD / 1440p dynamic resolution scaling
 
 #### Added Camera Features:
 - Extended pro (video) mode features: Histogram, Focus peaking, Zoom, Reset button, Expanded shutter speed
@@ -71,4 +71,5 @@ Please note there are seperate modules for both the A52 5G and A52 4G. Make sure
 - [Galaxy Watch Camera Controller](https://www.samsung.com/us/support/answer/ANS00084676/)
 - Higher Gallery Zoom Quality
 - Video Auto FPS
+- Enabled Logical Camera
 - Many, not worth to mention, additions
