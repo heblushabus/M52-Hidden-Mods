@@ -44,7 +44,7 @@ Please note there are seperate modules for both the A52 5G and A52 4G. Make sure
 - Codec support for APE, DSD and HDR10+ content
 - Camera Privacy Toggle
 - ADPS (Wi-Fi Power Saving)
-- Enabled [mDNIe](https://www.samsung.com/global/galaxy/what-is/mdnie/)
+- Enabled mDNIe
 - Enabled Resolution changing (FHD, HD - only visible in Bixby Routines)
 - Setting to limit battery charge to 85%
 - Smart Widgets
