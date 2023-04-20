@@ -3,14 +3,12 @@
 
 Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ) and Sloobot [Github](https://github.com/Sloobot) for porting to the A52. This is a continuation on Sloobot's work.
 
-Please note there are seperate modules for both the A52 5G and A52 4G. Make sure you use the correct one in the releases.
-
 ### Installation:
 1. Download the module from the releases
 2. Open the magisk app and go to modules
 3. Click the "Install from storage" button and select the .zip you just downloaded 
 
-> Note: It should only be used on the Galaxy A52 (SM-A526B) running the corresponding android security patch version as written in the releases. Trying on other devices is at your own risk.<br/>The changes are always reversable, by simply removing the module in magisk.
+> Note: It should only be used on the Galaxy A52 (SM-A526B) running the corresponding Android security patch version as written in the releases. Trying on other devices is at your own risk.<br/>The changes are always reversable, by simply removing the module in Magisk.
 
 ### Troubleshooting:
 - If camera app crashes (or other issues like error on 64MP mode) please clear camera app data.
@@ -49,7 +47,10 @@ Please note there are seperate modules for both the A52 5G and A52 4G. Make sure
 - Setting to limit battery charge to 85%
 - Smart Widgets
 - Samsung Smart Suggestions (Smart Calendar, Smart Widgets Auto Rotation, ..)
-- Added QHD / 1440p dynamic resolution scaling
+- Low Heat Mode
+- Color Lens support
+- HDR Effect support
+- DSP Volume Monitoring
 
 #### Added Camera Features:
 - Extended pro (video) mode features: Histogram, Focus peaking, Zoom, Reset button, Expanded shutter speed
