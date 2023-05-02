@@ -39,6 +39,7 @@ Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ)
 - Full Edge Lighting
 - Fixed Smart View (Normally broken on rooted devices)
 - Enhance Photo Feature in Gallery
+- S-Series Gallery Object Capture
 - Codec support for APE, DSD and HDR10+ content
 - Camera Privacy Toggle
 - ADPS (Wi-Fi Power Saving)
@@ -58,13 +59,11 @@ Credit goes to the original creator UltraHQ [Github](https://github.com/UltraHQ)
 - EIS Support / Video stabilization @ 4K (Disable energy saving mode to avoid lag)
 - AI Detail Enhancer feature (64MP mode)
 - Object/Shadow/Reflection Eraser (Update [Samsung Photo Editor](https://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-photo-editor/) to make it work, by installing the latest APK)
-- Full single take (Full AI, Second Editing, ..) (Dosen't work yet on the A52 but if i make it work ill create a update release)
 - Full Beauty features (Beauty in Live Focus, Beauty Brighten, Body Beauty, change skin tone)
 - Torch Flash in Live Focus
 - Review feature
 - Audio Input Control (In pro video mode - Limitation: Only internal microphone)
 - Improved Scene Detection
-- S-Series Photo Processing (I removed this from the code because it makes the photos look bad on the A52)
 - S-Series AI-Models & AI Features
 - Video Audio Zoom
 - Full Intelligent Recognition (like Smart Scan Text Extraction)
