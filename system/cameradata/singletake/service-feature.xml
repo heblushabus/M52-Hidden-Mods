@@ -28,7 +28,7 @@
 	<local name="SUPPORT_AI_FILTER" value="true"  />
 	<local name="SUPPORT_SMART_CROP" value="true"  />
 	<local name="SINGLE_TAKE_LITE_USE_CAMERA_FILTERS" value="true"  />
-	
+	<local name="HIDT_VIDEO_DURATION" value="6"  />
 	
 	<!-- RAPID MOMENT -->
 	<local name="SUPPORT_RAPID_MOMENT" value="false"  />	
@@ -38,4 +38,6 @@
 	<local name="VIDEO_FRONT_REVERSE_ENABLE" value="false"  />
 	<local name="VIDEO_REAR_REVERSE_ENABLE" value="true"  />
 	<local name="VIDEO_GENERATION_PARALLEL_ENABLE" value="false"  />
+	<local name="PHOTO_MAPPER_VERSION" value="3"  />
+	<local name="VIDEO_MAPPER_VERSION" value="3"  />
 </resources>
