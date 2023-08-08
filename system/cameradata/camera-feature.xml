@@ -40,14 +40,14 @@
     <local name="FRONT_CAMERA_RESOLUTION_SUPER_RESOLUTION" value="6528x4896" />
 
     <!-- Capture resolution - FRONT -->
-    <local name="FRONT_CAMERA_RESOLUTION_4BY3_LARGE" value="6528x4896" />
-    <local name="FRONT_CAMERA_RESOLUTION_4BY3_MEDIUM" value="4000x3000" />
-    <local name="FRONT_CAMERA_RESOLUTION_16BY9_LARGE" value="4000x2250" />
-    <local name="FRONT_CAMERA_RESOLUTION_16BY9_MEDIUM" value="4000x2250" />
-    <local name="FRONT_CAMERA_RESOLUTION_1BY1_LARGE" value="2992x2992" />
-    <local name="FRONT_CAMERA_RESOLUTION_1BY1_MEDIUM" value="2992x2992" />
-    <local name="FRONT_CAMERA_RESOLUTION_FULL_RATIO" value="4000x1800" />
-    <local name="FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION" value="4000x3000" />
+    <local name="FRONT_CAMERA_RESOLUTION_4BY3_LARGE" value="6528x4896"/>
+    <local name="FRONT_CAMERA_RESOLUTION_4BY3_MEDIUM" value="4000x3000"/>
+    <local name="FRONT_CAMERA_RESOLUTION_16BY9_LARGE" value="4000x2250"/>
+    <local name="FRONT_CAMERA_RESOLUTION_16BY9_MEDIUM" value="4000x2250"/>
+    <local name="FRONT_CAMERA_RESOLUTION_1BY1_LARGE" value="2992x2992"/>
+    <local name="FRONT_CAMERA_RESOLUTION_1BY1_MEDIUM" value="2992x2992"/>
+    <local name="FRONT_CAMERA_RESOLUTION_FULL_RATIO" value="4000x1800"/>
+    <local name="FRONT_CAMERA_PICTURE_DEFAULT_RESOLUTION" value="4000x3000"/>
 
     <!-- Back wide camera resolution -->
     <local name="BACK_WIDE_CAMERA_RESOLUTION_4BY3_LARGE" value="4000x3000" />
@@ -95,7 +95,6 @@
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_2400X1080" value="true" hdr="true" hdr10="false" preview-size="2400x1080" snapshot-support="true" snapshot-size="4000x1800" vdis="true" super-vdis="false" effect="true" object-tracking="false" external-storage-support="true"/>
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_176X144" value="true"/>
     <local name="FRONT_CAMCORDER_RESOLUTION_FEATURE_MAP_1920X1440" value="false" hdr="true" hdr10="false" preview-size="1920X1440" snapshot-support="true" snapshot-size="4000x3000" vdis="true" super-vdis="false" effect="true" object-tracking="false" external-storage-support="true"/>
-
     <!-- Camcorder resolution features -->
     <local name="REPRESENTATIVE_CAMCORDER_RESOLUTION_FOR_1_1_RATIO" value="1440x1440" />
     <local name="REPRESENTATIVE_CAMCORDER_RESOLUTION_FOR_FULL_RATIO" value="2400x1080" />
@@ -104,12 +103,12 @@
     <local name="CAMERA_QUICK_LAUNCH_USING_POWER_KEY" value="true"/>
 
     <!-- Multi-camera features -->
-    <local name="SUPPORT_BACK_DUAL_PORTRAIT" value="true"/>
-    <local name="BACK_WIDE_CAMERA_ID" value="50"/>
+    <local name="SUPPORT_BACK_DUAL_PORTRAIT" value="false"/>
+    <local name="BACK_WIDE_CAMERA_ID" value="2"/>
     <local name="BACK_MACRO_CAMERA_ID" value="54"/>
     <local name="FRONT_CROP_FOV_CAMERA_ID" value="3"/>
 
-    <!-- Support picture format -->
+    <!-- Support picture format(kinda sus) -->
     <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="true"/> 
     <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true"/>
 
@@ -152,25 +151,20 @@
 
     <!-- Camera related features -->
     <local name="SUPPORT_AUTO_WATERMARK" value="true" />
-    <local name="CAMERA_AUTO_WATERMARK_NUMBER_OF_CAMERAS" value="4" />
+    <local name="CAMERA_AUTO_WATERMARK_NUMBER_OF_CAMERAS" value="3" />
     <local name="SUPPORT_VIDEO_STABILISATION_MENU_IN_SETTING" value="true" />
 
     <!-- Floating camera button -->
     <local name="SUPPORT_FLOATING_CAMERA_BUTTON" value="true"/>
 
     <!-- Live Beauty features -->
-    <local name="SUPPORT_LIVE_BEAUTY" value="true"/>
-    <local name="SUPPORT_TO_USE_PPP" value="true"/>
     <local name="SUPPORT_LIVE_BEAUTY_IN_AUTO_MODE" value="true"/>
     <local name="SUPPORT_LIVE_BEAUTY_MANUAL_RESHAPE" value="false"/>
     <local name="SUPPORT_SMART_BEAUTY_GLOBAL" value="true"/>
     <local name="SUPPORT_LIVE_BEAUTY_SHAPE_CORRECTION" value="false"/>
-    <local name="SUPPORT_BODY_BEAUTY" value="true"/>
     <local name="SUPPORT_BACK_VIDEO_BEAUTY" value="true"/>
-    <local name="SUPPORT_WIDE_LENS_CORRECTION" value="true" />
     <local name="SUPPORT_BEAUTY_BRIGHTEN" value="true" />
-    <local name="SUPPORT_LIVE_BEAUTY_SKIN_COLOR" value="true" />
-    <local name="SUPPORT_SELFIE_TONE_MODE" value="true"/>
+    <local name="SUPPORT_WIDE_LENS_CORRECTION" value="true" />
 
     <!-- Super Slow Motion features -->
     <local name="SUPER_SLOW_MOTION_MAX_FRC_TIME" value="400"/>
@@ -198,13 +192,11 @@
     <local name="SUPPORT_SWITCH_RECORDING_WITH_VIDEO_STABILIZATION" value="false" />
     <local name="USE_KEY_SCREEN_INFLATION_DELAY" value="true" />
     <local name="MAX_POST_PROCESSING_COUNT_FOR_CAPTURE" value="3" />
-	<local name="SUPPORT_LOW_PERFORMANCE_REMOSAIC_CAPTURE" value="true"/>
 
     <!-- AF features -->
     <local name="SUPPORT_MULTI_AF" value="false"/>
     <local name="SUPPORT_OBJECT_TRACKING_AF" value="false" />
-    <local name="SUPPORT_FAST_REACTIVE_AF" value="true" />
-    <local name="SUPPORT_DIVIDE_AE_AF" value="true" />
+    <local name="SUPPORT_FAST_REACTIVE_AF" value="false" />
 
     <!-- Seamless camera switching related features -->
     <local name="SUPPORT_SEAMLESS_LENS_CHANGE_VI" value="true" />
@@ -217,6 +209,7 @@
 
     <!-- Support picture format -->
     <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="false"/>
+	<local name="SUPPORT_POST_PICTURE_PROCESSING" value="true"/>
 
     <!-- Single take lite features-->
     <local name="SINGLE_TAKE_USING_CONTINUOUS_AF" value="true"/>
@@ -242,7 +235,6 @@
     <!-- Etc. features -->
     <local name="USING_MAX_RESOLUTION_STAMP_IN_WATERMARK" value="true"/>
     <local name="SUPPORT_TRUE_HDR" value="true"/>
-	<local name="SUPPORT_SINGLE_TAKE_PORTRAITS" value="false"/>
     <local name="LOW_PERFORMANCE_REAR_NIGHT_SHOT" value="true"/>	
     <local name="SUPPORT_HYPER_LAPSE_SUPER_STEADY" value="true" />
     <local name="MAX_BURST_CAPTURE_COUNT" value="30" />
@@ -263,7 +255,7 @@
     <local name="LIMITATION_SLOWMOTION_DURING_SMARTVIEW" value="true" />
     <local name="LIMITATION_UHD_RECORDING_DURING_SMARTVIEW" value="true" />
     <local name="LIMITATION_FHD_60FPS_RECORDING_DURING_SMARTVIEW" value="true" />
-    <local name="TIME_TO_CLEAR_DRAWING_FINISHED_RUNNABLE" value="5" />
+    <local name="TIME_TO_CLEAR_DRAWING_FINISHED_RUNNABLE" value="50" />
     <local name="SUPPORT_NIGHT_MODE_REAR_LENS" value="true" />
     <local name="SUPPORT_NIGHT_MODE_FRONT_ANGLE" value="true" />
     <local name="SUPPORT_HYPER_LAPSE_RECORDING_MOTION_SPEED_64X" value="true" />
@@ -280,10 +272,12 @@
     <local name="SUPPORT_DIGITAL_TELE_ZOOM" value="true" />
     <local name="SUPPORT_FLASH_LRP_TEMPERATURE" value="true" />
     <local name="FLASH_OVERHEAT_LIMITATION_TEMP" value="450" />
-    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="0" display-cutout-0-left="159" display-cutout-0-top="0" display-cutout-0-right="201" display-cutout-0-bottom="42"/>
+    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="0" display-cutout-0-left="160" display-cutout-0-top="0" display-cutout-0-right="200" display-cutout-0-bottom="36"/>
     <local name="SUPPORT_VIDEO_PALM_DETECTION" value="true"/>
+	<local name="SUPPORT_PALM_DETECTION_LITE" value="false" />
     <local name="SUPPORT_IPP_EFFECT_CAPTURE_IN_CORE2" value="true"/>
-    <local name="SUPPORT_VDIS_CENTER_CROP_FOR_PREVIEW_RECORDING" value="true"/>    
+    <local name="SUPPORT_VDIS_CENTER_CROP_FOR_PREVIEW_RECORDING" value="true"/>
+	<local name="SUPPORT_EXPAND_SHUTTER_SPEED" value="true"/>
     <local name="SUPPORT_AUTO_HDR_MENU" value="true"/>
 	<local name="SUPPORT_CAMERA_DEBUG_INFO" value="true"/>
 
